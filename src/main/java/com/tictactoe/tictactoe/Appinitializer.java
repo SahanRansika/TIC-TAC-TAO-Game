@@ -18,7 +18,7 @@ public class Appinitializer extends Application {
         Parent load = FXMLLoader.load(getClass().getResource("/view/Login.fxml"));
         Scene scene = new Scene(load);
         stage.setScene(scene);
-        stage.setTitle("TicTacToe");
+        stage.setTitle("TIC-TAC-TAO");
         Image assest = new Image(getClass().getResourceAsStream("/view/assets/game2.png" ));
         stage.getIcons().add(assest);
         stage.setResizable(false);
